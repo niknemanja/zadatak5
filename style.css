@@ -1,0 +1,60 @@
+body{
+    font-size: 1.2rem;
+}
+
+.tabovi div{
+    display: none;
+}
+
+.tabovi div.show{
+    display: block;
+}
+
+
+header button{
+    background: rgb(0, 240, 60);
+    color: white;
+    border: none;
+    transition: 0.7s;
+    padding: 15px 20px;
+}
+
+header button:hover{
+    background: rgb(16, 196, 0);
+}
+
+header button.current{
+    outline: 2px solid rgb(0, 20, 19);
+}
+
+.tabovi{
+    margin-top: 10px;
+    background-color: #03b6ad;
+    padding: 20px;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown a{
+    text-decoration: none;
+    color: white;
+}
+.dropdown li{
+    cursor: pointer;
+    background: rgb(0, 160, 35);
+    padding: 5px 10px;
+    width: 120px;
+    margin-top: 5px;
+    transition: 0.7s;
+}
+
+.dropdown li:hover{
+    background: rgb(21, 150, 255);
+}
+
+.dropdown ul{
+    display: none;
+}
